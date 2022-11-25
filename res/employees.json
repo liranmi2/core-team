@@ -1,0 +1,19 @@
+{
+  "Employees": [
+    {
+      "Email": "guy_123@gjmail.com",
+      "Name": "Guy Levi",
+      "Role": "Team Leader"
+    },
+    {
+      "Email": "roy_123@gjmail.com",
+      "Name": "Roy Cohen",
+      "Role": "Backend Developer"
+    },
+    {
+      "Email": "amit_123@gjmail.com",
+      "Name": "Amit Tal",
+      "Role": "Frontend Developer"
+    }
+  ]
+}

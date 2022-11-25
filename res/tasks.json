@@ -1,0 +1,78 @@
+{
+  "Boards": [
+    {
+      "BoardName": "R&D",
+      "Tasks": [
+        {
+          "TaskName": "Implement new query",
+          "TaskDetails": "Show all employees older than 30",
+          "Status": "To-Do",
+          "Priority": "Medium",
+          "Type": "Feature",
+          "Assignee": "roy_123@gjmail.com",
+          "Creator" : "guy_123@gjmail.com"
+        },
+        {
+          "TaskName": "Design new feature",
+          "TaskDetails": "Prepare a table using React",
+          "Status": "In Progress",
+          "Priority": "Medium",
+          "Type": "Feature",
+          "Assignee": "amit_123@gjmail.com",
+          "Creator" : "guy_123@gjmail.com"
+        },
+        {
+          "TaskName": "Design new feature",
+          "TaskDetails": "Prepare a table using React",
+          "Status": "In Progress",
+          "Priority": "Low",
+          "Type": "Feature",
+          "Assignee": "amit_123@gjmail.com",
+          "Creator" : "guy_123@gjmail.com"
+        },
+        {
+          "TaskName": "Design new feature",
+          "TaskDetails": "Prepare a table using React",
+          "Status": "In Progress",
+          "Priority": "High",
+          "Type": "Feature",
+          "Assignee": "amit_123@gjmail.com",
+          "Creator" : "guy_123@gjmail.com"
+        },
+        {
+          "TaskName": "Design new feature",
+          "TaskDetails": "Prepare a table using React",
+          "Status": "Done",
+          "Priority": "High",
+          "Type": "Feature",
+          "Assignee": "amit_123@gjmail.com",
+          "Creator" : "guy_123@gjmail.com"
+        }
+      ]
+    },
+    {
+      "BoardName": "R&L",
+      "Tasks": [
+        {
+          "TaskName": "Implement new query",
+          "TaskDetails": "Show all employees older than 30",
+          "Status": "To-Do",
+          "Priority": "Medium",
+          "Type": "Feature",
+          "Assignee": "roy_123@gjmail.com",
+          "Creator" : "guy_123@gjmail.com"
+        },
+        {
+          "TaskName": "Design new feature",
+          "TaskDetails": "Prepare a table using React",
+          "Status": "In Progress",
+          "Priority": "Medium",
+          "Type": "Feature",
+          "Assignee": "amit_123@gjmail.com",
+          "Creator" : "guy_123@gjmail.com"
+        }
+      ]
+    }
+
+  ]
+}
