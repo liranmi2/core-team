@@ -28,9 +28,18 @@ module.exports = {
         res.end(JSON.stringify(data));
     },
     updateBoard: (req, res) => {
-        const data = taskManagerDAL.getTaskById();
-        res.writeHeader(200);
-        res.end(JSON.stringify(data));
+        let body = [];
+        let board;
+        const id = getBoardId(req) - 1;
+        req
+            //.on('error', logger.log(err))
+            .on('data', chunk => body.push(chunk))
+            .on('end', () => {
+                body = Buffer.concat(body).toString();
+                board = JSON.parse(body);
+                taskManagerDAL.updateBoard(id,board);
+                res.end('done');
+            })
     },
     createNewBoard: (req, res) => {
         let body = [];

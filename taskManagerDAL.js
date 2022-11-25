@@ -38,7 +38,7 @@ module.exports = class TaskManagerDAL extends EventEmitter {
         this.emit('updateData');
     }
 
-    updateBoards(payload) {
+    updateBoardsData(payload) {
         this.setBoards([...this.data.Boards, payload]);
         this.emit('updateData');
     }
@@ -54,6 +54,10 @@ module.exports = class TaskManagerDAL extends EventEmitter {
             }
         }
     }
+    updateBoard(payload) {
+        this.data.Boards[payload.BoardId].BoardName = payload.BoardName;
+        this.emit('updateData');
+    }
     createNewBoard(payload) {
         const newID = this.data.Boards[this.data.Boards.length - 1].BoardId + 1;
 
@@ -62,7 +66,7 @@ module.exports = class TaskManagerDAL extends EventEmitter {
             BoardName: payload.BoardName,
             Tasks: []
         }
-        this.updateBoards(newBoard);
+        this.updateBoardsData(newBoard);
     }
 
     createNewTask(payload,boardId) {

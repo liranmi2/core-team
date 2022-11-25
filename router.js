@@ -1,6 +1,6 @@
-const { showAllBoards, showTaskById, errorHandler,getTasksByBoard,
+const { errorHandler,showAllBoards,getTasksByBoard,
   createNewTask, createNewBoard, deleteBoard,deleteTaskById,
-  getTaskByFilter, updateTask, exportBoardToCSV, renderHomePage } = require('./controller');
+  filterBoardByParameters, updateTask,updateBoard, exportBoardToCSV, renderHomePage } = require('./controller');
 const {URL} = require('url');
 
 const ROUTES = {
@@ -9,9 +9,11 @@ const ROUTES = {
     '/boards' : showAllBoards,
     '/boards/id': getTasksByBoard,
     // '/boards/:id/tasks/:status/:assignee/:type/:priority' : getTaskByFilter,
+
     //'/boards/:id' : exportBoardToCSV
   },
   POST: {
+    '/boards/id/filter': filterBoardByParameters,
     '/boards': createNewBoard,
     '/boards/:id/tasks': createNewTaskInBoard
   },
