@@ -1,0 +1,14 @@
+the service will support -
+*# insert new task into a board V
+*# delete existing task/ board V
+* change tasks status and update task details V
+* present all task by board V
+*# get all available boards V
+*# get board’s tasks by status and/or assignee
+    and/or type and/or priority V
+* the task can be assigned to an employee and attached to a board V
+* task has a status: todo/ in-progress/ done
+* task has a priority: low/ medium/ high
+*# task has a type: bug/ feature
+*# the data can be export to a csv file
+* be creative! add statistic on board/ tickets
