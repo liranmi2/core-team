@@ -1,0 +1,25 @@
+{
+  "name": "core-team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BoardStatisticObj.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VikiBril/Core-team.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VikiBril/Core-team/issues"
+  },
+  "homepage": "https://github.com/VikiBril/Core-team#readme",
+  "dependencies": {
+    "json-2-csv": "^3.18.0",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.20"
+  }
+}
