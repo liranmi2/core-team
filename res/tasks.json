@@ -5,21 +5,11 @@
       "BoardName": "R&D",
       "Tasks": [
         {
-          "TaskId": 1,
-          "TaskName": "Implement",
-          "TaskDetails": "Show all employees older than 30",
-          "Status": "To-Do",
-          "Priority": "Medium",
-          "Type": "Feature",
-          "Assignee": "roy_123@jmail.com",
-          "Creator": "guy_123@jmail.com"
-        },
-        {
           "TaskId": 2,
           "TaskName": "Design",
           "TaskDetails": "Prepare a table using React",
           "Status": "In Progress",
-          "Priority": "Medium",
+          "Priority": "Low",
           "Type": "Feature",
           "Assignee": "amit_123@jmail.com",
           "Creator": "guy_123@jmail.com"
@@ -30,7 +20,7 @@
           "TaskDetails": "Show all employees older than 30",
           "Status": "To-Do",
           "Priority": "Medium",
-          "Type": "Feature",
+          "Type": "Bug",
           "Assignee": "roy_123@jmail.com",
           "Creator": "guy_123@jmail.com"
         },
@@ -39,7 +29,7 @@
           "TaskName": "Implement new query",
           "TaskDetails": "Show all employees older than 30",
           "Status": "To-Do",
-          "Priority": "Medium",
+          "Priority": "Low",
           "Type": "Feature",
           "Assignee": "roy_123@jmail.com",
           "Creator": "guy_123@jmail.com"
@@ -48,7 +38,7 @@
     },
     {
       "BoardId": 2,
-      "BoardName": "R&D",
+      "BoardName": "QA",
       "Tasks": [
         {
           "TaskId": 1,
@@ -69,10 +59,26 @@
           "Type": "Feature",
           "Assignee": "amit_123@jmail.com",
           "Creator": "guy_123@jmail.com"
+        }
+      ]
+    },
+    {
+      "BoardId": 3,
+      "BoardName": "Yovel",
+      "Tasks": [
+        {
+          "TaskId": 1,
+          "TaskName": "Implement",
+          "TaskDetails": "Show all employees older than 30",
+          "Status": "To-Do",
+          "Priority": "Medium",
+          "Type": "Feature",
+          "Assignee": "roy_123@jmail.com",
+          "Creator": "guy_123@jmail.com"
         },
         {
-          "TaskId": 3,
-          "TaskName": "Implement new query",
+          "TaskId": 2,
+          "TaskName": "Implement",
           "TaskDetails": "Show all employees older than 30",
           "Status": "To-Do",
           "Priority": "Medium",
@@ -83,9 +89,44 @@
       ]
     },
     {
-      "BoardId": 3,
-      "BoardName": "Yovel",
+      "BoardId": 4,
+      "BoardName": "VikisBoard",
       "Tasks": []
+    },
+    {
+      "BoardId": 6,
+      "BoardName": "newNameForThisBoard",
+      "Tasks": [
+        {
+          "TaskId": 1,
+          "TaskName": "Saturday",
+          "TaskDetails": "blablabla",
+          "Status": "To-Do",
+          "Priority": "High",
+          "Type": "Bug",
+          "Assignee": "guy_123@jmail.com",
+          "Creator": "guy_123@jmail.com"
+        },
+        {
+          "TaskId": 2
+        }
+      ]
+    },
+    {
+      "BoardId": 7,
+      "BoardName": "Liran",
+      "Tasks": [
+        {
+          "TaskId": 1,
+          "TaskName": "Saturday",
+          "TaskDetails": "blablabla",
+          "Status": "To-Do",
+          "Priority": "High",
+          "Type": "Bug",
+          "Assignee": "guy_123@jmail.com",
+          "Creator": "guy_123@jmail.com"
+        }
+      ]
     }
   ]
 }

@@ -3,11 +3,11 @@ const statistics = require('./BoardStatisticObj');
 const data = new TaskManagerDAL();
 
 module.exports = {
-    boardStatistics: (name) => {
+    boardStatistics: (id) => {
         let status = [0,0,0];  //status[0] = To-Do, status[1] = In Progress, status[2] = Done
         let prior = [0,0,0]; //prior[0] = Low, prior[1] = Medium, prior[2] = High
         let taskCount = 0;
-        for(const task of data.getAllTaskByBoard(name)) {
+        for(const task of data.getAllTaskByBoard(id)) {
             taskCount++;
             switch (task.Status) {
                 case "To-Do":
@@ -36,10 +36,7 @@ module.exports = {
                     break;
             }
         }
-    //
-        const statistic = new statistics(status, prior, taskCount);
-        console.log(statistic);
+        return new statistics(status, prior, taskCount);
+
     }
 }
-
-

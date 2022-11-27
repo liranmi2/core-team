@@ -8,6 +8,7 @@ module.exports = class TaskManagerDAL {
         this.low = (prior[0]/count) * 100;
         this.medium = (prior[1]/count) * 100;
         this.high = (prior[2]/count) * 100;
+        //tasks
+        this.tasks = [];
     }
 }
-
